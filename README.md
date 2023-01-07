@@ -8,7 +8,7 @@
 Esse é meu primeiro projeto
 </h2>
 
-<img src="https://github.com/guicavallini/Starbucks/blob/master/images/Starbucks.png?raw=true" />
+<img src="https://github.com/guicavallini/starbucks/blob/main/images/Starbucks.png?raw=true" />
 
 <br>
 

@@ -1,11 +1,13 @@
-let imagem = document.querySelector(".starbucks")
-let circulo = document.querySelector(".circulo")
+let image = document.querySelector(".starbucks")
+let circle = document.querySelector(".circle")
+let spanColor = document.querySelector("span")
+let buttomColor = document.querySelector("button")
 
+    const changeImage = address => image.src = address
 
-    function trocaImagem(endereco) {
-       imagem.src = endereco
-    }
+    const changeColorBackground = color => circle.style.background = color
 
-    function trocaCor(cor) {
-        circulo.style.background = cor
-    }
+    const changeColorSpan = color => spanColor.style.color = color
+    
+    const changeColorButton = color => buttomColor.style.background = color
+    

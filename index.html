@@ -17,13 +17,13 @@
 
 <body>
 
-    <div class="circulo"></div>
+    <div class="circle"></div>
 
     <img src="./images/logo.png" class="logo">
 
-    <main class="conteudo">
+    <main class="content">
 
-        <section class="caixa-texto">
+        <section class="textBox">
 
             <h2> It's not just Coffee <br> It's <span> Starbucks </span> </h2>
 
@@ -34,19 +34,19 @@
 
         </section>
 
-        <figure class="caixa-imagem">
+        <figure class="imageBox">
             <img src="./images/img1.png" class="starbucks">
         </figure>
 
     </main>
 
     <div class="menu">
-        <img src="./images/thumb1.png" class="botao-menu"
-            onclick="trocaImagem('./images/img1.png'); trocaCor('#017143');">
-        <img src="./images/thumb2.png" class="botao-menu"
-            onclick="trocaImagem('./images/img2.png'); trocaCor('#eb7495');">
-        <img src="./images/thumb3.png" class="botao-menu"
-            onclick="trocaImagem('./images/img3.png'); trocaCor('#d752b1');">
+        <img src="./images/thumb1.png" class="menuButton"
+            onclick="changeImage('./images/img1.png'); changeColorBackground('#017143'); changeColorSpan('#017143');  changeColorButton('#017143');">
+        <img src="./images/thumb2.png" class="menuButton"
+            onclick="changeImage('./images/img2.png'); changeColorBackground('#eb7495'); changeColorSpan('#eb7495');  changeColorButton('#eb7495');">
+        <img src="./images/thumb3.png" class="menuButton"
+            onclick="changeImage('./images/img3.png'); changeColorBackground('#d752b1'); changeColorSpan('#d752b1');  changeColorButton('#d752b1');">
     </div>
 
 </body>
